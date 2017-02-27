@@ -148,6 +148,25 @@
 	<div id="about">
 		<div id="contact">
 			<h2>Contact</h2>
+			<form action="/submit/index.html" method="GET">
+				<div class="flex">
+					<label for="name">Name:</label>
+					<input type="text" name="name" required="yes" placeholder="What do we call you?">
+				</div>
+
+				<div class="flex">
+					<label for="email">Email:</label>
+					<input type="email" name="email" required="yes" placeholder="your@email.com">
+				</div>
+
+				<div class="flex">
+					<label for="message">Short message:</label>
+					<textarea type="message" name="message" required="yes" placeholder="What do you want to say (in 140 characters)?" maxlength="140"></textarea>
+				</div>
+
+				<input type="submit" value="Send">
+			</form>
+
 			Twitter: <a href="https://twitter.com/knowblcluster">@KnowblCluster</a>
 			Support: <a href="https://twitter.com/knowblsupport">@KnowblSupport</a>
 		</div>
