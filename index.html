@@ -64,6 +64,11 @@
 		#about h2,#contact h2{border-bottom:3px solid #5AADD5;display:inline-block}
 		#clients h2,#showcase h2{border-bottom:3px solid #73C1B3;display:inline-block}
 		#team h2,#jobs h2{border-bottom:3px solid #EE7984;display:inline-block}
+		.flex{width:50%;float:left}
+		.flex:nth-of-type(2){padding:0 0 0 16px}
+		.flex:nth-of-type(3){width:100%}
+		.flexcontainer{flex-flow:row wrap;justify-content:center;align-items:baseline;align-content:stretch}
+		.flexcontainer2{display:-ms-flexbox;display:-webkit-flex;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-ms-flex-wrap:wrap;flex-wrap:wrap;-ms-flex-pack:center;justify-content:center;-ms-flex-line-pack:center;align-content:center;-ms-flex-align:center;align-items:center}
 		@media (max-width:1000px){header,main,article,footer,section{width:100%;padding:24px}main{margin:24px auto}nav{padding:0 24px}}
 		@media (max-width:600px){main{margin:0;padding:16px}ul{margin-top:16px}a.company,a.products,a.people{text-align:center}.logo{margin-left:16px}nav ul{width:100%}nav{display:block}nav ul{display:inline-block}nav ul li a{display:block}}
 		@media print{body{font:12pt georgia,serif}h1{font-size:18pt}}
