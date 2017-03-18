@@ -2,7 +2,7 @@
 
 ## Canonical source
 
-The canonical source of Knowbl Cluster is [hosted on git.knowbl.co](https://git.knowbl.co/dev/knowblcluster-com/).
+The canonical source of Knowbl Cluster is [hosted on https://git.knowbl.co/dev/knowblcluster-com/](https://git.knowbl.co/dev/knowblcluster-com/).
 
 ## Hiring
 
